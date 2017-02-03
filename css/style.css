@@ -104,6 +104,12 @@ footer{
 #gauche a:hover, #droite a:hover{
   text-decoration: underline;
 }
+
+@media screen and (max-width: 320px){
+  #nav1{
+  margin: 0;
+  }
+}
 /* --------------- FaceBook --------------- */
 #body2{
   margin: 0;
