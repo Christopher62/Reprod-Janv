@@ -105,9 +105,44 @@ footer{
   text-decoration: underline;
 }
 
+/* Responsive version tablette */
+@media screen and (max-width: 800px){
+  #nav1{
+  margin-left: 60%;
+  }
+  #google{
+    margin-left: 250px;
+  }
+  #logo{
+    margin-top: 15%;
+  }
+}
+/* Responsive version portable */
 @media screen and (max-width: 320px){
   #nav1{
   margin: 0;
+  }
+  #search{
+    width: 95%;
+  }
+  #google{
+    margin-left: 2%;
+  }
+  #chance{
+    margin: 0;
+    padding: 0;
+  }
+  .logo-text{
+    width: 20px;
+  }
+  #gauche{
+    float: none;
+    margin-left: 32px!important;
+    margin: 0;
+  }
+  #droite{
+    width: 310px;
+    margin: 0;
   }
 }
 /* --------------- FaceBook --------------- */
@@ -482,3 +517,4 @@ list-style-type: none;
   font-family: Arial;
   font-size: small;
 }
+/* ©Copyright Christopher Dachicourt */
