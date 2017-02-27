@@ -416,7 +416,7 @@ footer{
   border-radius: 10px;
   border: 1px solid lightgrey;
 }
-#loupe2{
+#loupe3{
   color: lightgrey;
   font-size: 1.5em!important;
   height: 32px;
@@ -606,5 +606,34 @@ list-style-type: none;
   color: grey;
   font-family: Arial;
   font-size: small;
+}
+/* Responsive version tablette */
+@media screen and (max-width: 800px){
+  #ico9{
+    margin-left: 5px;
+  }
+  #ico10{
+    margin-left: 45px;
+  }
+  #search3{
+    margin-left: 20px;
+    width: 170px;
+  }
+  #link4{
+    margin-left: 40px;
+  }
+  #stats{
+    bottom: 348px;
+  }
+  #linkone{
+    margin-left: 295px;
+  }
+  #btnpro{
+    margin-right: 25px;
+  }
+}
+/* Responsive version portable */
+@media screen and (max-width: 320px){
+
 }
 /* ©Copyright Christopher Dachicourt */
