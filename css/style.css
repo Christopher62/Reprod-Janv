@@ -347,12 +347,14 @@ footer{
     opacity: 1;
     display: inline-block;
     margin-left: 20px;
+    color: #FFF;
   }
   #ico8{
     color: #FFF;
     font-size: 1.2em;
     opacity: 1;
     display: inline-block;
+    margin-left: 60px;
   }
   #left, #right{
     display: none;
@@ -421,6 +423,10 @@ footer{
   font-size: 1.5em!important;
   height: 32px;
   width: 25px;
+}
+#linkbtn{
+  margin-left: 2px;
+  color: #FFF!important;
 }
 #imgtt{
   height: 32px;
@@ -492,11 +498,11 @@ footer{
   border-radius: 2px;
   height: 30px;
   border: 1px solid lightgrey;
-  background-color: rgb(250, 249, 249)!important;
+  background-color: rgb(250, 249, 249);
 }
 #btnpro:hover{
   color: #000;
-  background-color: rgb(240, 240, 240)!important;
+  background-color: rgb(240, 240, 240);
 }
 #userdiv{
   margin-left: 50px;
@@ -609,18 +615,25 @@ list-style-type: none;
 }
 /* Responsive version tablette */
 @media screen and (max-width: 800px){
+  #nav3 a{
+    display: none;
+  }
   #ico9{
-    margin-left: 5px;
+    margin-left: 10px;
   }
   #ico10{
-    margin-left: 45px;
+    margin-left: 190px;
   }
   #search3{
-    margin-left: 20px;
+    margin-left: 110px;
     width: 170px;
   }
+  #imgtt{
+    margin-left: 2px;
+  }
   #link4{
-    margin-left: 40px;
+    margin-left: 45px;
+    width: 40px;
   }
   #stats{
     bottom: 348px;
@@ -631,9 +644,45 @@ list-style-type: none;
   #btnpro{
     margin-right: 25px;
   }
+  #actu1TT, #actu2TT, #actu3TT, #actu4TT, #actu5TT{
+    margin-left: 33%;
+    bottom: 350px;
+    width: 44%;
+  }
+  #rightTT{
+    right: 0;
+    bottom: 340px;
+    margin-right: 10px;
+  }
+  #right2TT{
+    margin-right: 10px;
+    right: 0;
+    bottom: 1270px;
+  }
 }
 /* Responsive version portable */
 @media screen and (max-width: 320px){
-
+  #ico9{
+    margin-left: 90px;
+  }
+  #loupe3{
+    margin-left: 30px;
+  }
+  #ico10, #search3, #imgtt, #link4, #backtt, #imgp, #stats, #userdiv, #rightTT, #right2TT{
+    display: none;
+  }
+  #actu1TT{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 60px;
+    bottom: 0;
+  }
+  #actu2TT, #actu3TT, #actu4TT, #actu5TT{
+    position: relative;
+    width: 92%;
+    margin-left: 4%;
+    bottom: 0;
+    margin-bottom: 10px;
+  }
 }
 /* ©Copyright Christopher Dachicourt */
