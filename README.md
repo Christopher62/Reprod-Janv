@@ -6,3 +6,7 @@ MAJ 03/02/2017: Problème de "vide" à résoudre page twitter & responsive des p
 MAJ 24/02/2017 : Responsive de la page google & FaceBook fini !
 
 MAJ 27/02/2017 : Responsive Twitter commmencé : bug à résoudre !
+
+MAJ 27/02/2017 : Vérifications des pages : responsive des pages fini* !
+
+* pour twitter : versions pc et tablettes => bug du "vide" à résoudre...
