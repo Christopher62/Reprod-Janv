@@ -360,11 +360,11 @@ footer{
     display: none;
   }
   #actu1{
-    margin-top: 45px!important;
+    margin-top: 12%!important;
   }
   #actu1, #actu2, #actu3, #actu4, #actu5{
     width: 100%;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
   #end{
     margin-top: 2px;
@@ -456,15 +456,15 @@ footer{
   height: 200px;
   border-radius: 20px;
   border: 5px solid #FFF;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 #stats{
   width: 100%;
   height: 60px;
   background-color: #FFF;
-  position: relative;
-  bottom: 286px;
+  position: absolute;
+  margin-top: 17.6%;
 }
 #stats li{
   display: inline-block;
@@ -505,10 +505,12 @@ footer{
   background-color: rgb(240, 240, 240);
 }
 #userdiv{
+  margin-top: 330px;
   margin-left: 50px;
   width: 20%;
+  position: absolute;
 }
-#userdiv li, #rightTT li, #right2TT li, #right3TT li{
+#userdiv li, #rightTT li, #right2TT li{
 list-style-type: none;
 }
 .hashtag{
@@ -554,8 +556,22 @@ list-style-type: none;
   width: 51%;
   background-color: #FFF;
   padding-bottom: 5px;
-  position: relative;
-  bottom: 280px;
+  position: absolute;
+}
+#actu1TT{
+  margin-top: 23%;
+}
+#actu2TT{
+  margin-top: 36%;
+}
+#actu3TT{
+  margin-top: 49%;
+}
+#actu4TT{
+  margin-top: 62%;
+}
+#actu5TT{
+  margin-top: 75%;
 }
 #actu1TT p, #actu2TT p, #actu3TT p, #actu4TT p, #actu5TT p{
   margin-top: 40px;
@@ -572,31 +588,28 @@ list-style-type: none;
 }
 #rightTT{
   right: 0;
-  position: relative;
+  position: absolute;
   float: right;
   background-color: #FFF;
   width: 21%;
-  bottom: 270px;
+  margin-top: 23%;
   margin-right: 20px;
 }
-#rightTT li, #right2TT li, #right3TT li{
+#rightTT li, #right2TT li{
   margin-left: 2px;
-}
-#rightTT img, #right2TT img{
-  height: 100%;
-  width: 100%;
+  list-style-type: none;
 }
 #right2TT{
   right: 0;
   margin-top: 5px;
-  position: relative;
+  position: absolute;
   float: right;
   background-color: #FFF;
   width: 21%;
-  bottom: 855px;
+  margin-top: 43%;
   margin-right: 20px;
 }
-#sugg, #sugg2{
+#sugg1, #sugg2{
   font-size: 18px;
   font-weight: 300;
   font-family: Arial;
@@ -636,7 +649,7 @@ list-style-type: none;
     width: 40px;
   }
   #stats{
-    bottom: 348px;
+    margin-top: 28.3%;
   }
   #linkone{
     margin-left: 295px;
@@ -645,19 +658,32 @@ list-style-type: none;
     margin-right: 25px;
   }
   #actu1TT, #actu2TT, #actu3TT, #actu4TT, #actu5TT{
-    margin-left: 33%;
-    bottom: 350px;
-    width: 44%;
+    margin-top: 37%;
+    margin-left: 33.2%;
+    width: 43%;
+  }
+  #actu2TT{
+    margin-top: 67%;
+  }
+  #actu3TT{
+    margin-top: 97%;
+  }
+  #actu4TT{
+    margin-top: 127%;
+  }
+  #actu5TT{
+    margin-top: 157%;
   }
   #rightTT{
-    right: 0;
-    bottom: 340px;
+    margin-top: 37%;
     margin-right: 10px;
   }
   #right2TT{
+    margin-top: 61.6%;
     margin-right: 10px;
-    right: 0;
-    bottom: 1270px;
+  }
+  #rightTT img, #right2TT img{
+    width: 100%;
   }
 }
 /* Responsive version portable */
@@ -671,18 +697,24 @@ list-style-type: none;
   #ico10, #search3, #imgtt, #link4, #backtt, #imgp, #stats, #userdiv, #rightTT, #right2TT{
     display: none;
   }
-  #actu1TT{
+  #actu1TT, #actu2TT, #actu3TT, #actu4TT, #actu5TT{
     width: 92%;
     margin-left: 4%;
-    margin-top: 60px;
-    bottom: 0;
   }
-  #actu2TT, #actu3TT, #actu4TT, #actu5TT{
-    position: relative;
-    width: 92%;
-    margin-left: 4%;
-    bottom: 0;
-    margin-bottom: 10px;
+  #actu1TT{
+    margin-top: 18%;
+  }
+  #actu2TT{
+    margin-top: 105%;
+  }
+  #actu3TT{
+    margin-top: 192%;
+  }
+  #actu4TT{
+    margin-top: 279%;
+  }
+  #actu5TT{
+    margin-top: 366%;
   }
 }
 /* ©Copyright Christopher Dachicourt */
