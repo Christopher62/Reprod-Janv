@@ -9,4 +9,6 @@ MAJ 27/02/2017 : Responsive Twitter commmencé : bug à résoudre !
 
 MAJ 27/02/2017 : Vérifications des pages : responsive des pages fini* !
 
-* pour twitter : versions pc et tablettes => bug du "vide" à résoudre...
+MAJ 28/0é/2017 : Page twitter refaite à 100% + vérification des pages : Reprod fini !
+
+©Copyright Christopher Dachicourt
