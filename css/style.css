@@ -1,4 +1,4 @@
-/* --------------- Google --------------- */
+﻿/* --------------- Google --------------- */
 #body1{
   margin: 0;
   padding: 0;
@@ -104,7 +104,17 @@ footer{
 #gauche a:hover, #droite a:hover{
   text-decoration: underline;
 }
-
+/* Responsive pour "moyen" & "grand" pc */
+@media screen and (min-width: 1200px){
+  #google{
+    margin-left: 630px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  #google{
+    margin-left: 340px;
+  }
+}
 /* Responsive version tablette */
 @media screen and (max-width: 800px){
   #nav1{
