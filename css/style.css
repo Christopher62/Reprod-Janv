@@ -265,6 +265,7 @@ footer{
   margin-left: 10px;
   margin-top: 2px;
   float: left;
+  border-radius: 50px;
 }
 #right{
   top: 0;
