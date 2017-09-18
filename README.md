@@ -2,6 +2,7 @@
 Semaine du 30/01/2017 au 03/02/2017 : exo de reprod' des pages google, facebook & Twitter, sans JS pour le moment !
 
 Challenge sans Bootstrap*
+
 Possible évolutions -> changement de mises en pages des réseaux sociaux !
 
 MAJ 28/02/2017 : Page twitter refaite à 100% + vérification des pages : Reprod fini !
